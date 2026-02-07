@@ -22,7 +22,7 @@ export default function YesNoButtons() {
     
   };
 
-  const scaleValue = 1 + noClicks * 1;
+  const scaleValue = 1 + noClicks * 0.20;
   const noText = noTexts[Math.min(noClicks, noTexts.length - 1)];
   const moveNo = noClicks * 10;
 

@@ -110,7 +110,9 @@ export default function ValentinesPage() {
           style={{
             position: "absolute",
             left: `${heart.left}%`,
-            fontSize: heart.size
+            fontSize: heart.sizeб,
+            zIndex:999
+            
           }}
         >
           ❤️
