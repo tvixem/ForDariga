@@ -10,12 +10,9 @@ export default function ValentinesPage() {
   const audioRef = useRef(null);
   const [playing, setPlaying] = useState(false);
 
-  // Photo slider
-  const photos = [
-    "/photo1.jpg",
-    "/photo2.jpg",
-    "/photo3.jpg"
-  ];
+  const music1 =[
+
+  ]
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -91,7 +88,10 @@ export default function ValentinesPage() {
             borderRadius: "50%",
             color: "white",
             fontSize: 18,
-            cursor: "pointer"
+            cursor: "pointer",
+            display:"flex",
+            justifyContent:"center",
+            alignItems:"center"
           }}
         >
           {playing ? "⏸" : "▶"}
@@ -136,7 +136,7 @@ export default function ValentinesPage() {
         }}
       >
         <h1 style={{ fontSize: 42, color: "#ff2e63", marginBottom: 20 }}>
-          ❤️ Happy Valentine’s Day ❤️
+        ❤️  Happy Valentine’s Day ❤️
         </h1>
 
         <Swiperr/>
