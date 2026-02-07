@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Content from "./assets/Content/Content";
-import ValentinesPage from "./assets/Content/finalPage";
+import ValentinesPage from "./assets/Content/finalPage.jsx";
 export default function App() {
   return (
     <Routes>
