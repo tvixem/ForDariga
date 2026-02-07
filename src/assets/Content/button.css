@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+button{
+    color: white;
+    font-family: "Monseratt", cursive;
+    background-color: black;
+}

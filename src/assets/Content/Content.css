@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color:    #000;
+    color: white;
+    font-family: "Monseratt", cursive;
+}
+.base{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.main-text{
+    font-size: 5rem;
+}
+
+.Icon{
+    width: 400px;
+}
+.estro{
+    font-size: 1.5rem;
+}
