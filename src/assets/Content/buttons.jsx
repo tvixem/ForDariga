@@ -28,50 +28,30 @@ export default function YesNoButtons() {
 
   return (
     
-    <div
+    <div className="buttons-wrapper">
+  <div className="buttons-inner">
+    <button
+      onClick={handleNoClick}
+      className="no-btn"
       style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        width:"50%",
+        transform: `translateX(-${moveNo}px)`,
       }}
     >
-      <div style={{ display: "flex",justifyContent:"space-between",width:"100%" }}>
-        <button
-          onClick={handleNoClick}
-          style={{
-            width:"200px",
-            height:"100px",
-            fontSize: "2rem",
-            borderRadius: "20px",
-            border: "1px solid white",
-            transform: `translateX(-${moveNo}px)`,
-            cursor: "pointer",
-          }}
-        >
-          {noText}
-        </button>
+      {noText}
+    </button>
 
-        <a href="final" style={{
-            color:"white"
-        }}><button
-          onClick={handleYesClick}
-          style={{
-            width:"200px",
-            height:"100px",
-            fontSize: "2rem",
-            borderRadius: "20px",
-            border: "1px solid white",
-            cursor: "pointer",
-            transform: `scale(${scaleValue})`,
-            color:"white",
-            marginLeft:"20px",
-            gap:"20px"
-          }}
-        >
-          Yes
-        </button></a>
-      </div>
-    </div>
+    <a href="final" className="yes-link">
+      <button
+        onClick={handleYesClick}
+        className="yes-btn"
+        style={{
+          transform: `scale(${scaleValue})`,
+        }}
+      >
+        Yes
+      </button>
+    </a>
+  </div>
+</div>
   );
 }
