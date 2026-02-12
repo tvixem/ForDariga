@@ -161,9 +161,21 @@ export default function ValentinesPage() {
         <br />
         <br />
         <br />
-        <h1 style={{textAlign:"center"}}>This text is dedicated to the most gorgeous,splendid,wonderful,stunning,breathtaking girl.</h1>
-        <hr width="900px"/>
-        <p style={{textAlign:"center"}}>It feels realy weird to write a letter in programing tool but nvm.Dariga ,you are the person i admire the most ,the person who i can't imagine my life without.<br/>You take all  my problems away just by being in my life.I wake up thinking of you,i go through the day thinking of you and i fall asleep thinking of you.<br/> You always make me feel so special and i want to make you feel this way too ,i hope i'm doing good.I'm realy grateful that you apeared in my life and you did this in the most significant way.<br/>Everything with you would be better,traveling,hooping,cooking i mean EVERYTHING.Words can't describe my feelings honestly.I want to make you happy ,i want to make you smile ,cause you have the pretiest smile,<br/>the smile that  makes people lose their mind(Mine for example)You fell like the angel ,that came in my life to make it better<br/>I tried my best doing this website ,i hope i did well.<br/>I love you, git Janym. </p>
+        <div className="letter-section">
+  <h1 className="letter-title">
+    This text is dedicated to the most gorgeous, splendid, wonderful,
+    stunning, breathtaking girl.
+  </h1>
+
+  <hr className="letter-line" />
+
+  <div className="letter">
+    <p>
+    It feels realy weird to write a letter in programing tool but nvm.Dariga ,you are the person i admire the most ,the person who i can't imagine my life without.You take all  my problems away just by being in my life.I wake up thinking of you,i go through the day thinking of you and i fall asleep thinking of you. You always make me feel so special and i want to make you feel this way too ,i hope i'm doing good.I'm realy grateful that you apeared in my life and you did this in the most significant way.<br/>Everything with you would be better,traveling,hooping,cooking i mean EVERYTHING.Words can't describe my feelings honestly.I want to make you happy ,i want to make you smile ,cause you have the pretiest smile,the smile that  makes people lose their mind(Mine for example)You fell like the angel ,that came in my life to make it better.I tried my best doing this website ,i hope i did well.I love you, git Janym.
+    </p>
+  </div>
+</div>
+
       </div>
     </div>
     
