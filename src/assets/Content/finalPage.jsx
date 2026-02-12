@@ -120,7 +120,7 @@ export default function ValentinesPage() {
         <motion.div
           key={heart.id}
           initial={{ y: -300, opacity: 0.7 }}
-          animate={{ y: "110vh", opacity: 0.7 }}
+          animate={{ y: "200vh", opacity: 0.7 }}
           transition={{ duration: heart.duration, ease: "linear" }}
           style={{
             position: "absolute",
