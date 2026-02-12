@@ -1,4 +1,6 @@
 /* Общий контейнер письма */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .letter-section {
     width: 100%;
     max-width: 900px;
@@ -26,6 +28,9 @@
     color: white;
     line-height: 1.8;
     text-align: left;
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   
   /* 📱 АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНА */
