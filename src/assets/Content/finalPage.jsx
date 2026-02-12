@@ -3,6 +3,7 @@ import { useEffect, useState, useRef } from "react";
 import music from "../Content/love.mp3";
 import Swiperr from "./swiper";
 import hearttt from "../Content/heart.gif";
+import "./App.css"
 
 export default function ValentinesPage() {
   const [hearts, setHearts] = useState([]);
